@@ -330,6 +330,12 @@
   .mx-10 {
     margin-inline: calc(var(--spacing) * 10);
   }
+  .mx-20 {
+    margin-inline: calc(var(--spacing) * 20);
+  }
+  .mx-30 {
+    margin-inline: calc(var(--spacing) * 30);
+  }
   .mx-auto {
     margin-inline: auto;
   }
@@ -1735,6 +1741,11 @@
   .lg\:inline-block {
     @media (width >= 64rem) {
       display: inline-block;
+    }
+  }
+  .lg\:inline-flex {
+    @media (width >= 64rem) {
+      display: inline-flex;
     }
   }
   .lg\:h-96 {
